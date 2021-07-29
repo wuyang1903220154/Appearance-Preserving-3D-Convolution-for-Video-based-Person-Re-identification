@@ -1,6 +1,11 @@
 ## [Appearance-Preserving 3D Convolution for Video-based Person Re-identification](http://arxiv.org/abs/2007.08434)
 
 #### Requirements: Python=3.6 and Pytorch=1.0.0
+#### 这篇文章，主要使用的方法是，AP3D来提取连续视频的行人重识别的特征，其中主要是分为两个步骤，APM主要是来解决邻居帧之间外观帧不
+#### 匹配的现象的，因为单纯使用3D卷积是会破坏外观特征的提取的过程的。其中我也是对这篇论文，进行大量的注释，希望能够帮到在学习的你
+#### 因为，在我最开始的学习的时候，都是没有注释的，所当我开始的时候是非常困难。当然注释中肯定还是会出现错误的，希望你使用embed包
+#### 对每行代码进行测试
+
 
 
 
